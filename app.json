@@ -1,0 +1,39 @@
+{
+  "name": "Rio Music Bot",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/jokerrr7/m",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "سيشن",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "توكن البوت",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "اسم البوت",
+      "required": false,
+      "value": "جوكر"
+    },
+    "API_ID": {
+      "description": "ايبي ايدي",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "ايبي هاش",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs counted as admin everywhere (separated by space). Get from @MU_BL_K_BOT",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": true,
+      "value": "10"
+    }
+  }
+}
